@@ -1,0 +1,11 @@
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+
+.app {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	padding: 1em 1.5em;
+	background: #f4f5f6;
+}

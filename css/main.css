@@ -1,0 +1,26 @@
+@charset : 'utf8';
+
+.app__main{
+	display: flex;
+	flex-direction: column;
+	flex : 1 0 auto;
+}
+
+.app__sidebar {
+	flex: 0 0 auto;
+	padding: 1em 1.5em;
+	background: #fcd52b
+}
+
+.app__content{
+	flex: 1 0 auto;
+	padding: 1em 1.5em;
+	background: #d0d0d0
+}
+
+/*Large screen*/
+@media screen and (min-width: 400px) {
+	.app__main {
+		flex-direction: row;
+	}
+}

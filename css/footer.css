@@ -1,0 +1,8 @@
+@charset : "utf-8";
+
+.app__footer{
+	flex: 0 0 auto;
+	padding: 1em 1.5em;
+	height: 10vh;
+	background: #EF233C;
+}
