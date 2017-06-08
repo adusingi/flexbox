@@ -19,7 +19,7 @@
 }
 
 /*Large screen*/
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
 	.app__main {
 		flex-direction: row;
 	}
